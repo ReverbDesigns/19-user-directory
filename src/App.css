@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.Nav {
+  width: 100%;
+  margin: 16px auto;
+  border-bottom: 3px solid rgb(73, 39, 226);
+  padding: 40px;
+  text-align: center;
+  background-color: rgb(35, 228, 202);
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.NavTitle {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.NavInstructions {
+  color: white;
+  font-size: 15px;
+}
+.search[type="text"]:focus:not([readonly]) {
+  border: 1px solid #4deecc;
+  box-shadow: 0 0 0 1px #4da6ee;
+}
+.search[type="text"] {
+  border: 1px solid #4deecc;
+  box-shadow: 0 0 0 1px #4da6ee;
+}
